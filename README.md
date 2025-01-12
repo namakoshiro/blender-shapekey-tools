@@ -1,8 +1,13 @@
+https://github.com/user-attachments/assets/5215d683-40cf-4854-8bb4-8d0456363a2c
+
+A small tool for one click to split or merge L/R shapekeys, and generate new shapekey below the selected item
+
 # blender-shapekey-tools
 
 - Author: namakoshiro
 - Created: 2025/01/11
 - Version: 1.0.0
+- Blender: 4.2 LTS
 
 [English](#english) | [日本語](#日本語) | [中文](#中文)
 
