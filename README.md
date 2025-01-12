@@ -1,8 +1,6 @@
-https://github.com/user-attachments/assets/5215d683-40cf-4854-8bb4-8d0456363a2c
+https://github.com/user-attachments/assets/835c03f2-ba29-4229-804b-847a5bb768a1
 
 A small tool for one click to split or merge L/R shapekeys, and generate new shapekey below the selected item
-
-# blender-shapekey-tools
 
 - Author: namakoshiro
 - Created: 2025/01/11
@@ -37,3 +35,10 @@ A small tool for one click to split or merge L/R shapekeys, and generate new sha
 - **New Shapekey from Mix**: 将当前混合状态保存为新的形态键，并放置在选中项下方。
 - **Split Shapekey L/R**: 将形态键分割为左(.L)和右(.R)版本，并放置在选中项下方。
 - **Mirror Shapekey**: 创建选中形态键的镜像版本，并放置在选中项下方。
+
+---
+
+# Update History
+
+2025/1/12
+- Public release v1.0.0
