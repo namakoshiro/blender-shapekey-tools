@@ -11,18 +11,18 @@ https://github.com/user-attachments/assets/2f104d46-58e5-4655-9505-d64683fcf1fe
 [English](#english) | [Español](#español) | [日本語](#日本語) | [中文](#中文) | [한국어](#한국어)
 
 ## English
-A small tool for one click to split or merge L/R shapekeys, and generate new shapekey below the selected item
-- **Add Empty Shapekey Below**: Add a new empty shapekey below the selected one.
-- **Add Shapekey from Mix Below**: Capture the current mix as a new shapekey below the selected one.
+A small tool for one click to split or merge L/R Shapekey, and generate new Shapekey below the selected item
+- **New Shapekey**: Add a new empty shapekey below the selected one.
+- **New Shapekey from Mix**: Capture the current mix as a new shapekey below the selected one.
 - **Split Shapekey L/R**: Split a shapekey into left (.L) and right (.R) versions below the selected one.
 - **Mirror Shapekey**: Generate a mirrored version of the selected shapekey below the selected one.
 
 ## Español
-Una pequeña herramienta para dividir o fusionar shape keys izquierda/derecha con un solo clic, y generar nuevos shape keys debajo del elemento seleccionado
-- **Añadir Shape Key Vacío**: Añade un nuevo shape key vacío debajo del seleccionado.
-- **Añadir Shape Key desde Mezcla**: Captura la mezcla actual como un nuevo shape key debajo del seleccionado.
-- **Dividir Shape Key I/D**: Divide un shape key en versiones izquierda (.L) y derecha (.R) debajo del seleccionado.
-- **Espejo de Shape Key**: Genera una versión espejo del shape key seleccionado debajo del actual.
+Una pequeña herramienta para dividir o fusionar Shapekey izquierda/derecha con un solo clic, y generar nuevos Shapekey debajo del elemento seleccionado
+- **New Shapekey**: Añade un nuevo shape key vacío debajo del seleccionado.
+- **New Shapekey from Mix**: Captura la mezcla actual como un nuevo shape key debajo del seleccionado.
+- **Split Shapekey L/R**: Divide un shape key en versiones izquierda (.L) y derecha (.R) debajo del seleccionado.
+- **Mirror Shapekey**: Genera una versión espejo del shape key seleccionado debajo del actual.
 
 ## 日本語
 選択したシェイプキーの下に、左右のシェイプキーを分割・結合したり、新しいシェイプキーを生成したりするワンクリックツール
