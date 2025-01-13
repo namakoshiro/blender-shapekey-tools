@@ -1,5 +1,7 @@
-https://github.com/user-attachments/assets/2f104d46-58e5-4655-9505-d64683fcf1fe
+### Download Latest Version ▼
+https://github.com/namakoshiro/blender-shapekey-tools/releases/download/v1.1.0/blender-shapekey-tools-v1.1.0.zip
 
+https://github.com/user-attachments/assets/2f104d46-58e5-4655-9505-d64683fcf1fe
 - Author: namakoshiro
 - Created: 2025/1/11
 - Version: 1.1.0
