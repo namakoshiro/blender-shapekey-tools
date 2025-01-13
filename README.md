@@ -1,39 +1,45 @@
-https://github.com/user-attachments/assets/835c03f2-ba29-4229-804b-847a5bb768a1
-
-**A small tool for one click to split or merge L/R shapekeys, and generate new shapekey below the selected item**
+https://github.com/user-attachments/assets/2f104d46-58e5-4655-9505-d64683fcf1fe
 
 - Author: namakoshiro
-- Created: 2025/01/11
-- Version: 1.0.0
-- Blender: 4.2 LTS
+- Created: 2025/1/11
+- Version: 1.1.0
+- Last Updated: 2025/1/13
+- Blender Version: 2.80 → 4.32
 
 ---
 
-[English](#english) | [日本語](#日本語) | [中文](#中文) | [한국어](#한국어)
+[English](#english) | [Español](#español) | [日本語](#日本語) | [中文](#中文) | [한국어](#한국어)
 
-#### English
-
+## English
+A small tool for one click to split or merge L/R shapekeys, and generate new shapekey below the selected item
 - **Add Empty Shapekey Below**: Add a new empty shapekey below the selected one.
 - **Add Shapekey from Mix Below**: Capture the current mix as a new shapekey below the selected one.
 - **Split Shapekey L/R**: Split a shapekey into left (.L) and right (.R) versions below the selected one.
 - **Mirror Shapekey**: Generate a mirrored version of the selected shapekey below the selected one.
 
-#### 日本語
+## Español
+Una pequeña herramienta para dividir o fusionar shape keys izquierda/derecha con un solo clic, y generar nuevos shape keys debajo del elemento seleccionado
+- **Añadir Shape Key Vacío**: Añade un nuevo shape key vacío debajo del seleccionado.
+- **Añadir Shape Key desde Mezcla**: Captura la mezcla actual como un nuevo shape key debajo del seleccionado.
+- **Dividir Shape Key I/D**: Divide un shape key en versiones izquierda (.L) y derecha (.R) debajo del seleccionado.
+- **Espejo de Shape Key**: Genera una versión espejo del shape key seleccionado debajo del actual.
 
+## 日本語
+選択したシェイプキーの下に、左右のシェイプキーを分割・結合したり、新しいシェイプキーを生成したりするワンクリックツール
 - **New Shapekey**: 新しい空のシェイプキーを追加し、選択項目の下に配置。
 - **New Shapekey from Mix**: 現在のミックスを新しいシェイプキーとして追加し、選択項目の下に配置。
 - **Split Shapekey L/R**: シェイプキーを左(.L)と右(.R)に分割し、選択項目の下に配置。
 - **Mirror Shapekey**: 選択したシェイプキーのミラーバージョンを作成し、選択項目の下に配置。
 
-#### 中文
-
+## 中文
+一個小工具，只需一鍵即可分割或合併左右變形鍵，並在所選項目下方生成新的變形鍵
 - **New Shapekey**: 建立新的空白變形鍵，並置於所選項目下方。
 - **New Shapekey from Mix**: 將目前混合狀態儲存為新的變形鍵，並置於所選項目下方。
 - **Split Shapekey L/R**: 將變形鍵分為左側(.L)和右側(.R)版本，並置於所選項目下方。
 - **Mirror Shapekey**: 建立所選變形鍵的鏡像版本，並置於所選項目下方。
 
-#### 한국어
-
+## 한국어
+선택한 쉐이프 키 아래에서 좌/우 쉐이프 키를 분할하거나 병합하고, 새로운 쉐이프 키를 생성하는 원클릭 도구
 - **New Shapekey**: 선택한 항목 아래에 새로운 빈 쉐이프 키를 추가합니다.
 - **New Shapekey from Mix**: 현재의 혼합 상태를 새로운 쉐이프 키로 캡처하여 선택한 항목 아래에 추가합니다.
 - **Split Shapekey L/R**: 쉐이프 키를 왼쪽(.L)과 오른쪽(.R) 버전으로 분할하여 선택한 항목 아래에 배치합니다.
@@ -41,7 +47,14 @@ https://github.com/user-attachments/assets/835c03f2-ba29-4229-804b-847a5bb768a1
 
 ---
 
-### Update History
+## Update History
 
-**v1.0.0 (2025/1/12)**
+### v1.0.0 (2025/1/12)
 - Initial public release
+
+### v1.1.0 (2025/1/13)
+- Support Blender version 2.80 → 4.32
+- Redesign panel layout
+- Enhance functions
+- Enhance operation logic
+- Add error handling
