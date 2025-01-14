@@ -1,8 +1,7 @@
-**Download Latest Version for Free ▼**  
-https://github.com/namakoshiro/blender-shapekey-tools/releases/download/v1.1.2/blender-shapekey-tools-v1.1.2.zip   
+### [🔗 Download Latest Version for Free ⭐️](https://github.com/namakoshiro/blender-shapekey-tools/releases/download/v1.1.2/blender-shapekey-tools-v1.1.2.zip)
+### [🔗 Buy me a coffee if you like ❤️](https://www.patreon.com/namakoshiro)
 
-**Buy me a 1/4 coffee if you like ❤️**  
-https://www.patreon.com/c/namakoshiro/membership
+---
 
 https://github.com/user-attachments/assets/2f104d46-58e5-4655-9505-d64683fcf1fe
 
