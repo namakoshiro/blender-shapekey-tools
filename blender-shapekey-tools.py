@@ -4,7 +4,7 @@ A small tool for one click to split or merge L/R shapekeys, and generate new sha
 
 Author: namakoshiro
 Created: 2025/1/11
-Version: 1.1.1
+Version: 1.1.2
 Last Updated: 2025/1/14
 Blender Version: 2.80 → 4.32
 
@@ -19,7 +19,7 @@ Smart Split Mouth L/R: Experimental: Smartly split mouth shapekey into L/R.
 bl_info = {
     "name": "blender-shapekey-tools",
     "author": "namakoshiro",
-    "version": (1, 1, 1),
+    "version": (1, 1, 2),
     "blender": (2, 80, 0),
     "location": "View3D > Sidebar > Shapekey",
     "description": "A small tool for one click to split or merge L/R shapekeys, and generate new shapekey below the selected item",
@@ -235,12 +235,12 @@ class ADD_OT_shapekey_split_lr(Operator):
             # Store original index
             original_index = obj.active_shape_key_index
             
-            # Create left side first (will end up above right side)
-            self.create_side_shapekey(context, active_key, 'L')
+            # Create right side first (will end up below left side)
+            self.create_side_shapekey(context, active_key, 'R')
             context.window_manager.progress_update(40)
             
-            # Then create right side
-            self.create_side_shapekey(context, active_key, 'R')
+            # Then create left side
+            self.create_side_shapekey(context, active_key, 'L')
             context.window_manager.progress_update(80)
             
             # Set the original shapekey value to 0
@@ -530,8 +530,9 @@ class ADD_OT_shapekey_smart_split_mouth_lr(Operator):
                 # Get relative position in X range using deformed position
                 rel_pos = (source_key.data[i].co.x - x_min) / x_range
                 
-                # For right side, invert the position
-                if side == 'R':
+                # For right side (.R), use weight directly (weight=1 at negative X)
+                # For left side (.L), invert the position (weight=1 at positive X)
+                if side == 'L':
                     rel_pos = 1 - rel_pos
                 
                 # Calculate weight using custom curve
@@ -684,7 +685,7 @@ class VIEW3D_PT_shapekey_tools(Panel):
         box = layout.box()
         col = box.column()
         col.scale_y = 0.8
-        col.label(text="Version: 1.1.1")
+        col.label(text="Version: 1.1.2")
         col.label(text="Last Updated: 2025/1/14")
         col.label(text="Blender: 2.80 → 4.32")
 
