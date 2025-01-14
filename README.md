@@ -1,7 +1,13 @@
-### Download Latest Version ▼
-https://github.com/namakoshiro/blender-shapekey-tools/releases/download/v1.1.2/blender-shapekey-tools-v1.1.2.zip
+**Download Latest Version for Free ▼**  
+https://github.com/namakoshiro/blender-shapekey-tools/releases/download/v1.1.2/blender-shapekey-tools-v1.1.2.zip   
+
+**Buy me a 1/4 coffee if you like ❤️**  
+https://www.patreon.com/c/namakoshiro/membership
 
 https://github.com/user-attachments/assets/2f104d46-58e5-4655-9505-d64683fcf1fe
+
+Experimental Function: Smartly and smoothly split mouth’s Shapekey into L/R  
+This function can also smartly identify Teeth 🦷 and Tongue 👅 within the Face Mesh, and ensure they won't tilt like lips 👄  
 
 https://github.com/user-attachments/assets/b09015ce-5ff1-4d4a-b2e8-60d5fd5958fe
 
