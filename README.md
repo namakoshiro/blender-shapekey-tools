@@ -1,11 +1,11 @@
 ### Download Latest Version ▼
-https://github.com/namakoshiro/blender-shapekey-tools/releases/download/v1.1.0/blender-shapekey-tools-v1.1.0.zip
+https://github.com/namakoshiro/blender-shapekey-tools/releases/download/v1.1.2/blender-shapekey-tools-v1.1.2.zip
 
 https://github.com/user-attachments/assets/2f104d46-58e5-4655-9505-d64683fcf1fe
 - Author: namakoshiro
 - Created: 2025/1/11
-- Version: 1.1.0
-- Last Updated: 2025/1/13
+- Version: 1.1.2
+- Last Updated: 2025/1/14
 - Blender Version: 2.80 → 4.32
 
 ---
@@ -60,3 +60,7 @@ Una pequeña herramienta para dividir o fusionar Shapekey izquierda/derecha con 
 - Enhance functions
 - Enhance operation logic
 - Add error handling
+
+### v1.1.2 (2025/1/14)
+- Add experimental function: Smartly split mouth shapekey into L/R
+- Fix some problems
