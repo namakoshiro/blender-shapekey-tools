@@ -1,17 +1,27 @@
-## [**`👉 Download Latest Version 👈`**](https://github.com/namakoshiro/blender-shapekey-tools/releases/download/v1.2.2/blender-shapekey-tools-v1.2.2.zip)
+## [**`👉 Download Latest Version 👈`**](https://github.com/namakoshiro/blender-shapekey-tools/releases/download/v1.3.0/blender-shapekey-tools-v1.3.0.zip)
 
-- Drag the `Zip` file into Blender and click `OK`
-- Search for `Bone Tools` in `Preferences` > `Add-ons`
-- Make sure `Bone Tools` is enabled
-- Press shortcut key `N` in viewport to open the `N-Panel`
+- **For first time installation**
+    - Drag the `Zip` file into Blender and click `OK`
+    - Search for `Shapekey Tools` in `Preferences` > `Add-ons`
+    - Make sure `Shapekey Tools` is enabled
+    - Press shortcut key `N` in viewport to open the `N-Panel`
+
+- **For update from previous version to 1.3.0 and later**  
+    - Drag the `Zip` file into Blender and click `OK`
+    - `Restart` Blender to complete the update
+
+- **For update from version 1.3.0**  
+    - Press `Update` button to update the addon online
+    - In case it's not working, please manually [`Download Latest Version`](https://github.com/namakoshiro/blender-shapekey-tools/releases/download/v1.3.0/blender-shapekey-tools-v1.3.0.zip)
+    - Press `Install` button and select `Zip` file to update the addon
 
 ## **😊 Information**
 
 **This is a Blender add-on for one-click to split or merge L/R shapekeys, and create new shapekey below the selected**  
 
 - Author: [`namakoshiro`](https://x.com/namakoshiro)  
-- Version: `1.2.2`  
-- Last Updated: `2025/2/28`  
+- Version: `1.3.0`  
+- Last Updated: `2025/3/14`  
 
 ## **📖 How to Use**
 
@@ -35,6 +45,10 @@
     - Animations of teeth and tongue will be scaled down but won't be tilted like lips
 
 ## **Update History**
+
+- **v1.3.0 (2025/3/14)**
+    - Convert to multi-file system
+    - New feature: Update from online/local
 
 - **v1.2.2 (2025/1/16)**
     - Change info name to "Shapekey Tools"
