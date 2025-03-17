@@ -12,23 +12,16 @@ class VIEW3D_PT_shapekey_tools(Panel):
         # Check if object is mesh with shapekeys
         obj = context.active_object
         return obj and obj.type == 'MESH' and obj.data.shape_keys
-    
+
     def draw(self, context):
         layout = self.layout
         obj = context.active_object
         
         # Check conditions
         is_object_mode = context.mode == 'OBJECT'
+        is_edit_mode = context.mode == 'EDIT_MESH'
         has_active_non_basis = obj.active_shape_key_index > 0
         
-        # Show warning if not in object mode
-        if not is_object_mode:
-            box = layout.box()
-            box.alert = True
-            box.label(text="Work in Object Mode", icon='ERROR')
-            layout.separator()
-        
-        # Basic operators section
         box = layout.box()
         col = box.column(align=True)
         col.enabled = is_object_mode
@@ -39,7 +32,6 @@ class VIEW3D_PT_shapekey_tools(Panel):
         if bpy.app.version >= (4, 2, 0):
             col.operator("object.delete_unlocked_shapekeys", icon='REMOVE')
         
-        # Mirror and split operators section
         box = layout.box()
         col = box.column(align=True)
         col.enabled = is_object_mode and has_active_non_basis
@@ -47,7 +39,11 @@ class VIEW3D_PT_shapekey_tools(Panel):
         col.operator("object.add_shapekey_split_lr", icon='MOD_MIRROR')
         col.operator("object.add_shapekey_smooth_split_mouth_lr", icon='MOD_MIRROR')
         
-        # Version and update section
+        box = layout.box()
+        col = box.column(align=True)
+        col.enabled = is_edit_mode and has_active_non_basis
+        col.operator("object.select_affected_vertices", icon='VERTEXSEL')
+        
         layout.separator()
         box = layout.box()
         row = box.row(align=True)
@@ -65,8 +61,8 @@ class VIEW3D_PT_shapekey_tools(Panel):
 
         # Version Info
         col = box.column()
-        col.label(text="Version: 1.3.0")
-        col.label(text="Last Updated: 2025/3/14")
+        col.label(text="Version: 1.3.1")
+        col.label(text="Last Updated: 2025/3/17")
         if hasattr(bpy.types.Scene, "shapekey_tools_update_available"):
             if hasattr(bpy.context.scene, "shapekey_tools_update_check_in_progress") and bpy.context.scene.shapekey_tools_update_check_in_progress:
                 col.label(text="Checking update...")

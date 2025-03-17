@@ -1,4 +1,4 @@
-## [**`👉 Download Latest Version 👈`**](https://github.com/namakoshiro/blender-shapekey-tools/releases/download/v1.3.0/blender-shapekey-tools-v1.3.0.zip)
+## [**`👉 Download Latest Version 👈`**](https://github.com/namakoshiro/blender-shapekey-tools/releases/download/v1.3.1/blender-shapekey-tools-v1.3.1.zip)
 
 - **For first time installation**
     - Drag the `Zip` file into Blender and click `OK`
@@ -12,7 +12,7 @@
 
 - **For update from version 1.3.0**  
     - Press `Update` button to update the addon online
-    - In case it's not working, please manually [`Download Latest Version`](https://github.com/namakoshiro/blender-shapekey-tools/releases/download/v1.3.0/blender-shapekey-tools-v1.3.0.zip)
+    - In case it's not working, please manually [`Download Latest Version`](https://github.com/namakoshiro/blender-shapekey-tools/releases/download/v1.3.1/blender-shapekey-tools-v1.3.1.zip)
     - Press `Install` button and select `Zip` file to update the addon
 
 ## **😊 Information**
@@ -20,8 +20,8 @@
 **This is a Blender add-on for one-click to split or merge L/R shapekeys, and create new shapekey below the selected**  
 
 - Author: [`namakoshiro`](https://x.com/namakoshiro)  
-- Version: `1.3.0`  
-- Last Updated: `2025/3/14`  
+- Version: `1.3.1`  
+- Last Updated: `2025/3/17`  
 
 ## **📖 How to Use**
 
@@ -44,34 +44,40 @@
     - Smoothly split mouth shapekey into L/R with weighted transition
     - Animations of teeth and tongue will be scaled down but won't be tilted like lips
 
+- **Select All Affected Vertices**
+    - Select all vertices affected of the selected shapekey in Edit Mode
+
 ## **Update History**
 
-- **v1.3.0 (2025/3/14)**
+- **1.3.1 (2025/3/17)**
+    - New feature: Select All Affected Vertices
+
+- **1.3.0 (2025/3/14)**
     - Convert to multi-file system
     - New feature: Update from online/local
 
-- **v1.2.2 (2025/1/16)**
+- **1.2.2 (2025/1/16)**
     - Change info name to "Shapekey Tools"
     - Change info category to "Rigging"
 
-- **v1.2.1 (2025/1/16)**
+- **1.2.1 (2025/1/16)**
     - Feature: Delete All Except Locked only available on Blender ≥ 4.2
     - Enhance functions
 
-- **v1.2.0 (2025/1/15)**
+- **1.2.0 (2025/1/15)**
     - New Feature: Delete All Except Locked
     - New Feature: Smoothly Split Mouth L/R
     - Enhance functions
     - Fix problems
 
-- **v1.1.2 (2025/1/14)**
+- **1.1.2 (2025/1/14)**
     - New Feature: Smoothly Split Mouth L/R (Experimental)
     - Fix problems
 
-- **v1.1.0 (2025/1/13)**
+- **1.1.0 (2025/1/13)**
     - Add support for Blender version from 2.80 to 4.3
     - Enhance UI
     - Enhance functions
 
-- **v1.0.0 (2025/1/12)**
+- **1.0.0 (2025/1/12)**
     - Public release

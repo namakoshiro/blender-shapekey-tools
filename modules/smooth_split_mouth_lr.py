@@ -95,7 +95,6 @@ class ADD_OT_shapekey_smooth_split_mouth_lr(Operator):
         return set(island_data[0]['verts'])
     
     def calculate_custom_weight(self, position, is_upward):
-        """Calculate transition weight for vertex position"""
         if is_upward:
             # Keep full weight in first 30% for upper lip
             if position <= 0.3:
